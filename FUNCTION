@@ -1,0 +1,11 @@
+function Person(name,rollno)
+{
+ this.name=name;
+ this.rollno=rollno;
+ this.display=function(){
+ console.log(name=+":" +rollno);
+ }
+ }
+ let abc=new person('abc':100);
+ abc.display();
+ 
